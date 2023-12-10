@@ -19,7 +19,7 @@ export const GlobalProvider = ({ children }) => {
 
     //actions
     function deleteTransaction(id) {
-        
+        console.log(state.transactions)
         dispatch({
             type: 'DELETE_TRANSACTION',
             payload: id
